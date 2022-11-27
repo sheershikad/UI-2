@@ -1,0 +1,175 @@
+@media screen and (min-width:991px) {
+    .details{
+        display: flex;
+        flex-direction: row;
+        padding-left: 17%;
+        padding-right: 17%;
+        background-color: rgb(6, 190, 138);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .about-us,.latest-post,.twitter-widget{
+        width: 33.3%;
+        color: white;
+    }
+    
+    .about-us,.latest-post{
+        margin-right: 10px;
+    }
+    
+    
+    .location,.contact-number{
+        display: flex;
+        flex-direction: row;
+    }
+    .post{
+        display: flex;
+        flex-direction: row;
+    }
+    .widget{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .post{
+        margin-bottom: 15px;
+    }
+    .twit{
+       background-color: rgb(5, 166, 120);
+       padding: 5px;
+       margin-left: 5px;
+       border: 0.5px;
+       border-style:solid;
+       border-color:  rgb(24, 149, 24);
+    }
+    .widget div i{
+        font-size: 36px;
+        border: 0ch;
+        margin: 0%;
+        margin-right: 3px;
+    }
+    
+    .widget div i:hover{
+        font-size: 36px;
+        border: 0ch;
+    }
+    .fa .fa-map-marker{
+        padding: 0%;
+        margin: 0%;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+    
+    p{
+        margin: 0%;
+        font-size: 12px;
+    }
+    
+    .post-description h5{
+        margin: 0%;
+        
+    }
+    
+    .details div div h5{
+        margin: 0%;
+        padding-bottom:3px;
+        margin-bottom: 30px;
+        text-decoration: underline;
+        text-underline-position:auto;
+    }
+    
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:330px) and (max-width:990px){
+    .details{
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: rgb(6, 190, 138);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .about-us,.latest-post,.twitter-widget{
+        width: 100%;
+        color: white;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    
+    /* .about-us,.latest-post{
+        margin-right: 10px;
+    } */
+    
+    
+    .location,.contact-number{
+        display: flex;
+        flex-direction: row;
+    }
+    .post{
+        display: flex;
+        flex-direction: row;
+    }
+    .widget{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .post{
+        margin-bottom: 15px;
+    }
+    .twit{
+       background-color: rgb(5, 166, 120);
+       padding: 5px;
+       margin-left: 5px;
+       border: 0.5px;
+       border-style:solid;
+       border-color:  rgb(24, 149, 24);
+    }
+    .widget div i{
+        font-size: 36px;
+        border: 0ch;
+        margin: 0%;
+        margin-right: 3px;
+    }
+    
+    .widget div i:hover{
+        font-size: 36px;
+        border: 0ch;
+    }
+    .fa .fa-map-marker{
+        padding: 0%;
+        margin: 0%;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    
+    p{
+        margin: 0%;
+        font-size: 12px;
+    }
+    .post-description h5{
+        margin: 0%; 
+    }
+    .details div div h5{
+        margin: 0%;
+        padding-bottom:3px;
+        margin-bottom: 30px;
+        text-decoration: underline;
+        text-underline-position:auto;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: row;
+    } 
+}

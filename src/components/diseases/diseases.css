@@ -1,0 +1,159 @@
+@media screen and (min-width:991px) {
+.diseases{
+    display: flex;
+    flex-direction: row;
+    padding-left: 17%;
+    padding-right: 17%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.disease-head{
+display: flex;
+flex-direction: row;
+}
+.disease{
+width: 33.3%;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-right: 5px;
+}
+.diseases div:hover{
+background-color: rgb(244, 236, 236);
+}
+
+.diseases div:hover hr{
+    color: rgb(6, 190, 138);
+}
+
+.disease div{
+    margin-bottom: 10px;
+}
+
+.diseases div:hover .disease-title{
+    color: rgb(6, 190, 138);
+}
+
+.disease-button .button {
+    background-color:white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(15, 72, 9);
+    color:rgb(15, 72, 9);
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .diseases div:hover .button{
+    background-color: rgb(6, 190, 138);
+    border: 1px;
+    border-style: solid;
+    border-color:  rgb(6, 190, 138);
+    color:white;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* style={{"font-size":"48px","color":"rgb(6, 190, 138)"}} */
+.disease-logo i{
+font-size: 48px;
+color: rgba(0, 0, 0, 0.761);
+}
+
+.diseases div:hover .disease-logo i{
+    color:rgb(6, 190, 138);
+}
+
+.diseases div:hover .disease-discription p{
+font-weight: 500;
+}
+}
+@media screen and (min-width:330px) and (max-width:990px){
+    .diseases{
+        margin: 0px;
+    }
+    .disease-head{
+    display: flex;
+    flex-direction: row;
+    }
+    .disease{
+    width: 100%;
+    padding: 20px;
+    /* margin-right: 5px; */
+    }
+    .diseases div:hover{
+    background-color: rgb(244, 236, 236);
+    }
+    
+    .disease div{
+        margin-bottom: 10px;
+    }
+    
+    .diseases div:hover .disease-title{
+        color: rgb(6, 190, 138);
+    }
+    
+    .disease-button .button {
+        background-color:white;
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(15, 72, 9);
+        color:rgb(15, 72, 9);
+        padding: 6px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    
+      .diseases div:hover .button{
+        background-color: rgb(6, 190, 138);
+        border: 1px;
+        border-style: solid;
+        border-color:  rgb(6, 190, 138);
+        color:white;
+        padding: 6px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    /* style={{"font-size":"48px","color":"rgb(6, 190, 138)"}} */
+    .disease-logo i{
+    margin-left: 50px;
+    float: right;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.761);
+    }
+
+    
+    .diseases div:hover .disease-logo i{
+        color:rgb(6, 190, 138);
+    }
+    
+    .diseases div:hover .disease-discription p{
+    font-weight: 500;
+    }  
+}
+
+
+
+
+
+

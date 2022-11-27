@@ -1,0 +1,159 @@
+@media screen and (min-width:991px){
+    .carousel .thumbs-wrapper{
+        display: none;
+    }
+
+    .happy-patients .carousel .control-dots{
+        display: none;
+    }
+
+   .hp{
+    margin-left: 17%;
+    margin-right: 17%;
+   }
+   .hp .happy-patients-heading h5{
+        color: rgb(6 190 138);
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .hp .happy-patients{
+        background-color: rgb(248, 242, 242);
+        height: auto;
+    }
+    .hp .happy-patients .carousel .patient{
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .hp .happy-patients .carousel .patient p{
+        font-size: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Brush Script MT', cursive;
+    }
+
+    .hp .happy-patients .carousel .patient .patient-img{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
+
+    .hp .happy-patients .carousel .patient .patient-img hr{
+        margin-top: 25px;
+        width: 5%;
+    }
+
+    .hp .happy-patients .carousel .patient .patient-img img{
+      width: 50px;
+      height: 50px;
+      margin: 0;
+    }
+
+    .hp .happy-patients .carousel .patient h6{
+        color: rgb(6 190 138);
+        margin-bottom: 20px;
+    }
+
+    .hp .happy-patients .carousel .control-arrow, .carousel.carousel-slider .control-arrow
+     {
+        transition: all .25s ease-in;
+        opacity: 1;}
+    .hp .happy-patients .carousel .control-next.control-arrow:before {
+        border-left: 8px solid black;}
+    
+    .hp .happy-patients .carousel .control-prev.control-arrow:before {
+        border-right: 8px solid black;}
+    
+    .hp .happy-patients .carousel.carousel-slider .control-arrow {
+        top: initial;
+        color: rgb(6 190 138);
+        font-size: 30px;
+        bottom: 0;
+        margin: 0%;
+        padding: 0px;
+ }
+    
+}
+@media screen and (min-width:330px) and (max-width:990px){
+    .carousel .thumbs-wrapper{
+        display: none;
+    }
+    .happy-patients .carousel .control-dots{
+        display: none;
+    }
+    .happy-patients-heading{
+        margin-left: 5%;
+    }
+
+    .happy-patients-heading h5{
+        color: rgb(6 190 138);
+        margin-bottom: 20px;
+        margin-top: 30px;
+
+    }
+
+    .happy-patients{
+        background-color: rgb(248, 242, 242);
+        height: auto;
+    }
+    .happy-patients .carousel .patient{
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .happy-patients .carousel .patient p{
+        font-size: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: 'Brush Script MT', cursive;
+    }
+
+    .happy-patients .carousel .patient .patient-img{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .happy-patients .carousel .patient .patient-img hr{
+        margin-top: 25px;
+        /* margin-bottom: 25px; */
+        width: 46%;
+    }
+
+    .happy-patients .carousel .patient .patient-img img{
+      width: 50px;
+      height: 50px;
+    }
+
+
+
+    .happy-patients .carousel .patient h6{
+        color: rgb(6 190 138);
+    }
+
+    .happy-patients .carousel .control-arrow, .carousel.carousel-slider .control-arrow
+     {
+        transition: all .25s ease-in;
+        opacity: 1;}
+    .happy-patients .carousel .control-next.control-arrow:before {
+        border-left: 8px solid black;}
+    
+    .happy-patients .carousel .control-prev.control-arrow:before {
+        border-right: 8px solid black;}
+    
+    .happy-patients .carousel.carousel-slider .control-arrow {
+        top: initial;
+        color: rgb(6 190 138);
+        font-size: 30px;
+        bottom: 0;
+        margin: 0%;
+        padding: 0px;
+ }
+    
+}
+

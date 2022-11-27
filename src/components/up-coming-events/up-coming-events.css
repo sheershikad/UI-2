@@ -1,0 +1,293 @@
+@media screen and (min-width:330px) and (max-width:990px){
+  .up-coming-events .carousel .control-dots {
+    display: none;
+  }
+  .up-coming-event-heading h5 {
+    color: rgb(6, 190, 138);
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+  .up-coming-events {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .carousel .upcoming-event .events .event-content .event-image img {
+    width: 90px;
+    height: 100px;
+  }
+  .up-coming-events .carousel .upcoming-event .events .event-content:hover {
+    background-color: gainsboro;
+  }
+  .up-coming-events .carousel .upcoming-event .events .event-content:hover h6 {
+    color: rgb(6, 190, 138);
+  }
+
+  .up-coming-events .carousel .upcoming-event {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events {
+   width: 33.3%;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .event-content {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .event-content:hover .event-description .event-button .button {
+    background-color: rgb(6, 190, 138);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(6, 190, 138);
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.up-coming-events .carousel .upcoming-event .events .event-content .event-description .event-button .button {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(15, 72, 9);
+    color: rgb(15, 72, 9);
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .up-coming-events.carousel .control-arrow,
+  .carousel.carousel-slider .control-arrow {
+    transition: all 0.25s ease-in;
+    opacity: 1;
+  }
+  .up-coming-events .carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+  }
+
+  .up-coming-events .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black;
+  }
+
+  .up-coming-events .carousel.carousel-slider .control-arrow {
+    top: initial;
+    color: rgb(6 190 138);
+    font-size: 30px;
+    bottom: 0;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 20px; */
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date hr {
+    /* margin-top: 27px; */
+    width: 40%;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover .event-content {
+    background-color: rgb(240, 237, 237);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date p {
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(206, 202, 202);
+    color: white;
+    background-color: rgb(121, 121, 125);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: auto;
+    text-align: center;
+    margin: 0;
+    height: 30px;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover .date p {
+    color: white;
+    background-color: rgb(6, 190, 138);
+    border-color: rgb(5, 148, 108);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover h6 {
+    color: rgb(6, 190, 138);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events {
+    width: 32%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .up-coming-event-heading h5 {
+    color: rgb(6, 190, 138);
+    margin-bottom: 20px;
+  }
+
+  .up-coming-events {
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* height: 300px; */
+    height: auto;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date hr {
+    margin-top: 27px;
+    width: 40%;
+  }
+
+  .up-coming-events
+    .carousel
+    .upcoming-event
+    .events
+    .event-content
+    .event-image
+    img {
+    width: 100px;
+    height: 150px;
+  }
+  .up-coming-events .carousel .upcoming-event {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    /* margin: 20px; */
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover .event-content {
+    background-color: rgb(240, 237, 237);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events .date p {
+    /* width: 20%; */
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(206, 202, 202);
+    color: white;
+    background-color: rgb(121, 121, 125);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 0%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover .date p {
+    color: white;
+    background-color: rgb(6, 190, 138);
+    border-color: rgb(5, 148, 108);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events:hover h6 {
+    color: rgb(6, 190, 138);
+  }
+
+  .up-coming-events .carousel .upcoming-event .events {
+    width: 32%;
+  }
+  .up-coming-events .carousel .upcoming-event .events .event-content {
+    display: flex;
+    flex-direction: row;
+    /* width: 32%; */
+    /* margin: 10px; */
+    padding: 10px;
+    /* height: auto; */
+  }
+
+  .up-coming-events
+    .carousel
+    .upcoming-event
+    .events:hover
+    .event-content
+    .event-description
+    .event-button
+    .button {
+    background-color: rgb(6, 190, 138);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(6, 190, 138);
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .up-coming-events
+    .carousel
+    .upcoming-event
+    .events
+    .event-content
+    .event-description
+    .event-button
+    .button {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(15, 72, 9);
+    color: rgb(15, 72, 9);
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .up-coming-events .carousel .control-arrow,
+  .carousel.carousel-slider .control-arrow {
+    transition: all 0.25s ease-in;
+    opacity: 1;
+  }
+  .up-coming-events .carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+  }
+
+  .up-coming-events .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black;
+  }
+
+  .up-coming-events .carousel.carousel-slider .control-arrow {
+    top: initial;
+    color: rgb(6 190 138);
+    font-size: 30px;
+    bottom: 0;
+    margin: 0%;
+    padding: 0px;
+  }
+  .up-coming-events .carousel .control-dots {
+    display: none;
+  }
+}

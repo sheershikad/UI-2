@@ -1,0 +1,97 @@
+@media screen and (min-width:991px){
+    .doctorteam{
+        background-color: rgb(27, 192, 145);
+        height: auto;
+        margin-bottom: 30px;
+        /* padding: 10px; */
+    }
+    .doctor-team-heading{
+        color: white;
+        text-align: center;}
+        
+    .doctor-team-paragraph{
+        color: white;
+        text-align: center;
+    }
+    .doctorteam .carousel .control-dots {
+        display: none;
+    }
+    .doctorteam .carousel .slide .doctor-team-images img{
+        width: 200px;
+        height: 300px; 
+    }
+    
+
+    .doctorteam.carousel .control-arrow, .carousel.carousel-slider .control-arrow
+     {
+        transition: all .25s ease-in;
+        opacity: 1;}
+    .doctorteam .carousel .control-next.control-arrow:before {
+        border-left: 8px solid black;}
+    
+    .doctorteam .carousel .control-prev.control-arrow:before {
+        border-right: 8px solid black;}
+    
+    .doctorteam .carousel.carousel-slider .control-arrow {
+        top: initial;
+        color: rgb(6 190 138);
+        font-size: 30px;
+        bottom: 0;
+        margin: 0%;
+        padding: 0px;
+    }
+
+
+    .doctorteam .carousel .slide .doctor-team-images{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:330px) and (max-width:990px){
+.doctorteam{
+    background-color: rgb(27, 192, 145);
+    height: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.doctor-team-heading{
+    color: white;
+    text-align: center;}
+    
+.doctor-team-paragraph{
+    color: white;
+    text-align: center;
+}
+.doctorteam .carousel .control-dots {
+    display: none;
+}
+.doctorteam .carousel .slide .doctor-team-images img{
+    width: 90px;
+    height: 130px; 
+}
+
+.doctorteam.carousel .control-arrow, .carousel.carousel-slider .control-arrow
+     {
+        transition: all .25s ease-in;
+        opacity: 1;}
+    .doctorteam .carousel .control-next.control-arrow:before {
+        border-left: 8px solid black;}
+    
+    .doctorteam .carousel .control-prev.control-arrow:before {
+        border-right: 8px solid black;}
+    
+    .doctorteam .carousel.carousel-slider .control-arrow {
+        top: initial;
+        color: rgb(6 190 138);
+        font-size: 30px;
+        bottom: 0;
+        margin: 0%;
+        padding: 0px;
+ }
+
+.doctorteam .carousel .slide .doctor-team-images{
+    margin-top: 20px;
+}
+
+}

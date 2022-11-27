@@ -1,0 +1,34 @@
+@media screen and (min-width:330px) and (max-width:990px){
+    .copy-rights{
+        background-color:rgb(7, 150, 109);
+        margin: auto;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom:15px;
+    
+    }
+    
+    .copy-rights p{
+        color: white;
+    }
+
+}
+
+@media screen and (min-width:991px){
+    .copy-rights{
+        background-color:rgb(7, 150, 109);
+        margin: auto;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom:15px;
+    
+    }
+    
+    .copy-rights p{
+        color: white;
+    }
+
+}
+
+
+
